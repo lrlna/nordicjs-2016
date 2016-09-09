@@ -600,6 +600,15 @@
       .citation[John Von Neumann, _Theory of Self-Reproducing Automata, http://cba.mit.edu/events/03.11.ASE/docs/VonNeumann.pdf_]
 
       ---
+      class: middle, center
+ 
+      ## ![pencil](./src/images/pencil.png)  &nbsp &nbsp &nbsp &nbsp &nbsp ![floppy](./src/images/floppy.png)
+      ## ![wrench](./src/images/wrench.png) &nbsp &nbsp &nbsp &nbsp &nbsp ![robot](./src/images/robot.png) &nbsp &nbsp &nbsp &nbsp &nbsp ![alarm](./src/images/alarm.png)
+      ## &nbsp &nbsp &nbsp &nbsp &nbsp ![balloon](./src/images/balloon.png) &nbsp &nbsp ![hammer](./src/images/hammer.png)
+
+      .citation[John Von Neumann, _Theory of Self-Reproducing Automata, http://cba.mit.edu/events/03.11.ASE/docs/VonNeumann.pdf_]
+
+      ---
       class: middle
 
       ##1. .pink-border[Density Classification]
@@ -616,45 +625,93 @@
       # .blue[Genetic Algorithm Structure for Density Classification]
 
       ---
-      class: top
+      class: middle
 
-      ## .pink-border[A new set is generated for each generation]
+      # .pink-border[aka Automata votes ![vote](./src/images/vote.png)]
 
-      ### ![cake](./src/images/cakeSmall.png)&nbsp![coffee](./src/images/coffeeSmall.png)&nbsp&nbsp![coffee](./src/images/coffeeSmall.png)&nbsp&nbsp![cake](./src/images/cakeSmall.png)&nbsp![cake](./src/images/cakeSmall.png)![coffee](./src/images/coffeeSmall.png)&nbsp![coffee](./src/images/coffeeSmall.png)&nbsp&nbsp![cake](./src/images/cakeSmall.png)&nbsp![cake](./src/images/cakeSmall.png)![coffee](./src/images/coffeeSmall.png)
-
-      .citation[Mitchell, Crutchfield, Das, _Evolving Cellular Automata with Genetic Algorithms: A Review of Recent Work_]
       ---
       class: middle
-      ## .pink-border[Perform a fitness level test ![runner](./src/images/runner.png)&nbsp ![bike](./src/images/bike.png)&nbsp![weightlifter](./src/images/weightlifter.png) + ]
-      ## .pink-border[sort in order of fitness]
 
+      ## .pink-border[Start with a random state lattice]
       .citation[Mitchell, Crutchfield, Das, _Evolving Cellular Automata with Genetic Algorithms: A Review of Recent Work_]
-      ---
-      class: middle
-      ## .pink-border[20% of the best taken to next generation]
-      ### ![cake](./src/images/cakeSmall.png)&nbsp![coffee](./src/images/coffeeSmall.png)&nbsp&nbsp![coffee](./src/images/coffeeSmall.png)&nbsp&nbsp![cake](./src/images/cakeSmall.png)&nbsp![cake](./src/images/cakeSmall.png)![coffee](./src/images/coffeeSmall.png)&nbsp![coffee](./src/images/coffeeSmall.png)&nbsp&nbsp![cake](./src/images/cakeSmall.png)&nbsp![cake](./src/images/cakeSmall.png)![coffee](./src/images/coffeeSmall.png)
-      ## | ------- |
-      #### &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 20%
 
+      --
+
+      ### ![cake](./src/images/cakeSmall.png)&nbsp![coffee](./src/images/coffeeSmall.png)&nbsp&nbsp![coffee](./src/images/coffeeSmall.png)&nbsp&nbsp![cake](./src/images/cakeSmall.png)&nbsp![cake](./src/images/cakeSmall.png)![coffee](./src/images/coffeeSmall.png)&nbsp![coffee](./src/images/coffeeSmall.png)&nbsp&nbsp![cake](./src/images/cakeSmall.png)&nbsp![cake](./src/images/cakeSmall.png)![coffee](./src/images/coffeeSmall.png)
       .citation[Mitchell, Crutchfield, Das, _Evolving Cellular Automata with Genetic Algorithms: A Review of Recent Work_]
 
       ---
       class: middle
-      ## .pink-border[80% crossovers between pairs of "elite" rules]
+      ## .pink-border[Perform a fitness level test]
+      ## ![runner](./src/images/runner.png)&nbsp ![bike](./src/images/bike.png)&nbsp![weightlifter](./src/images/weightlifter.png)
 
-      ### ![cake](./src/images/cakeSmall.png)&nbsp![coffee](./src/images/coffeeSmall.png)&nbsp&nbsp![coffee](./src/images/coffeeSmall.png)&nbsp&nbsp![cake](./src/images/cakeSmall.png)&nbsp![cake](./src/images/cakeSmall.png)![coffee](./src/images/coffeeSmall.png)&nbsp![coffee](./src/images/coffeeSmall.png)&nbsp&nbsp![cake](./src/images/cakeSmall.png)&nbsp![cake](./src/images/cakeSmall.png)![coffee](./src/images/coffeeSmall.png)
-      #### &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp |----------------------------------------------------------------------------------------- |
       .citation[Mitchell, Crutchfield, Das, _Evolving Cellular Automata with Genetic Algorithms: A Review of Recent Work_]
 
-      ???
-      Offsprings from the crossover are placed randomly
-      Selecting parents relative to fitness rank helps with genetic diversity.
+      ---
+      class: middle, center
 
+      ### ![cake](./src/images/cakeSmall.png)
+      ### ![coffee](./src/images/coffeeSmall.png)
+      ### ![coffee](./src/images/coffeeSmall.png)
+      ### ![cake](./src/images/cakeSmall.png)
+      ### ![cake](./src/images/cakeSmall.png)
+
+      .citation[Mitchell, Crutchfield, Das, _Evolving Cellular Automata with Genetic Algorithms: A Review of Recent Work_]
+
+      ---
+      class: middle, center
+
+      ### ![cake](./src/images/cakeSmall.png) &nbsp &nbsp | t-1
+      ### ![coffee](./src/images/coffeeSmall.png) &nbsp &nbsp | t-2
+      ### ![coffee](./src/images/coffeeSmall.png) &nbsp &nbsp | t-3
+      ### ![cake](./src/images/cakeSmall.png) &nbsp &nbsp | t-4
+      ### ![cake](./src/images/cakeSmall.png) &nbsp &nbsp | t-5
+
+      .citation[Mitchell, Crutchfield, Das, _Evolving Cellular Automata with Genetic Algorithms: A Review of Recent Work_]
+
+      ---
+      class: middle, center
+
+      ### ![cake](./src/images/cakeSmall.png) &nbsp &nbsp | t-1 &nbsp &nbsp &nbsp &nbsp
+      ### ![coffee](./src/images/coffeeSmall.png) &nbsp &nbsp | t-2 &nbsp &nbsp &nbsp &nbsp
+      ### ![coffee](./src/images/coffeeSmall.png) &nbsp &nbsp | t-3 &nbsp &nbsp &nbsp &nbsp
+      ### ![cake](./src/images/cakeSmall.png) &nbsp &nbsp | t-4 &nbsp &nbsp &nbsp &nbsp
+      ### ![cake](./src/images/cakeSmall.png) &nbsp &nbsp | t-5 &nbsp &nbsp &nbsp &nbsp
+
+      .citation[Mitchell, Crutchfield, Das, _Evolving Cellular Automata with Genetic Algorithms: A Review of Recent Work_]
+
+      ---
+      class: middle
+
+      > Can you get your neighbours to vote the other way?
+      ###.blockquote-footer[me]
+
+      ---
+      class: middle, center
+
+      ### ![cake](./src/images/cakeSmall.png) &nbsp &nbsp | t-1
+      ### ![coffee](./src/images/coffeeSmall.png) &nbsp &nbsp | t-2
+      ### ![coffee](./src/images/coffeeSmall.png) &nbsp &nbsp | t-3
+      ### ![cake](./src/images/cakeSmall.png) &nbsp &nbsp | t-4
+      ### ![cake](./src/images/cakeSmall.png) &nbsp &nbsp | t-5
+
+      .citation[Mitchell, Crutchfield, Das, _Evolving Cellular Automata with Genetic Algorithms: A Review of Recent Work_]
+
+      ---
+      class: middle, center
+
+      ### ![coffee](./src/images/coffeeSmall.png) &nbsp &nbsp | t-1
+      ### ![cake](./src/images/cakeSmall.png) &nbsp &nbsp | t-2
+      ### ![cake](./src/images/cakeSmall.png) &nbsp &nbsp | t-3
+      ### ![cake](./src/images/cakeSmall.png) &nbsp &nbsp | t-4
+      ### ![coffee](./src/images/coffeeSmall.png) &nbsp &nbsp | t-5
+
+      .citation[Mitchell, Crutchfield, Das, _Evolving Cellular Automata with Genetic Algorithms: A Review of Recent Work_]
       ---
       ## .pink-border[Generation 0]
       ![gen0](./src/images/gen0.png)
 
-
+      .citation[Mitchell, Crutchfield, Das, _Evolving Cellular Automata with Genetic Algorithms: A Review of Recent Work_]
       ---
       ## .pink-border[Later Generations]
       ![latergens](./src/images/laterGens.png)
@@ -662,31 +719,11 @@
       .citation[Mitchell, Crutchfield, Das, _Evolving Cellular Automata with Genetic Algorithms: A Review of Recent Work_]
 
       ---
-      background-image: url(./src/images/space.jpg)
+      background-image: url(./src/images/keyboard.gif)
       background-size: cover
 
-      class: middle
-
-      # .blue[Image Processing]
 
       ---
-      class: center, middle
-
-      ######![cake](./src/images/cake.png)&nbsp&nbsp&nbsp![cake](./src/images/cake.png)&nbsp&nbsp&nbsp![cake](./src/images/cake.png)
-      ######![cake](./src/images/cake.png)&nbsp&nbsp&nbsp![coffee](./src/images/coffee.png)&nbsp&nbsp&nbsp![cake](./src/images/cake.png)
-      ######![cake](./src/images/cake.png)&nbsp&nbsp&nbsp![cake](./src/images/cake.png)&nbsp&nbsp&nbsp![cake](./src/images/cake.png)
-
-      .citation[P. Sahota. M. F. Daemi and D. G. Elliman, _training genetically evolving cellular automata for image processing_]
-
-      ---
-      class: center, middle
-
-      .big-one[&ltri; --> ] ![automata](./src/images/automata.png) .big-one[--> &ltri;]
-      ## .pink-border[input &nbsp&nbsp&nbsp&nbsp&nbsp --> automata --> &nbsp&nbsp&nbsp&nbsp&nbsp output]
-
-      .citation[P. Sahota. M. F. Daemi and D. G. Elliman, _training genetically evolving cellular automata for image processing_]
-      ---
-
       # .pink-border[Resources]
 
       ##### .pink-border[Melanie Mitchell, _Complexity: A Guided Tour_]
@@ -696,7 +733,7 @@
       ##### .pink-border[P. Sahota. M. F. Daemi and D. G. Elliman, _training genetically evolving cellular automata for image processing_]
 
       ---
-      background-image: url(./src/images/space.jpg)
+      background-image: url(./src/images/keyboard.gif)
       background-size: cover
 
       class: center, middle
