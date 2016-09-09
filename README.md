@@ -1,6 +1,6 @@
 # Taking on Genetically Evolving Cellular Automta with JavaScript
 
-Upcoming [BrazilJS](https://braziljs.org/conf) Talk on Cellular Automata :dancer: 
+Upcoming [NordicJS](https://nordicjs.com) Talk on Cellular Automata :dancer: 
 
 ---
 
