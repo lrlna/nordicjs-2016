@@ -1,0 +1,172 @@
+body {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: #17223C;
+}
+
+h1 {
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: 600;
+  color: #17223C;
+}
+
+.remark-slide-content h1 {
+  font-size: 90px;
+}
+
+.remark-slide-content h2 {
+  font-size: 55px;
+}
+
+.remark-slide-content .big-one{
+  font-size: 90px;
+  line-height: 1.5;
+}
+
+.remark-slide-content .small-media {
+  font-size: 70px;
+  line-height: 1.5;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+}
+
+.remark-slide-content .small-media > img {
+  padding-left: 0.2em;
+  height: 2em;
+}
+
+.remark-slide-content .massive-one{
+  font-size: 150px;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: #17223c; 
+}
+
+.remark-code, .remark-inline-code {
+  font-family: 'Ubuntu Mono';
+  font-size: 25px;
+  line-height: 1.2em;
+}
+
+.pink {
+  background-color: #FF8FA6;
+  display: inline;
+}
+
+.blue-color {
+  color: #B9EAEA;
+}
+
+.blue {
+  background-color: #B9EAEA;
+  display: inline;
+}
+
+.purple {
+  background-color: #caa9fa;
+  display: inline;
+}
+
+.citation {
+  box-shadow: inset 0 -6px 0 #2433DF;
+  color: #ff8fa6;
+  display: inline;
+  position: absolute;
+  bottom: 2em;
+  left: 4em;
+}
+.citation a {
+    color: #ff8fa6;
+}
+
+.align-right {
+  float: right;
+}
+
+.align-left {
+  float: left;
+}
+
+.quote {
+  line-height: 1.1;
+}
+
+.super-title {
+  color: #2433df;
+  box-shadow: inset 0 -30px 0 #FF8FA6;
+}
+
+.pink-border {
+  box-shadow: inset 0 -30px 0 #FF8FA6;
+}
+
+.orange-border {
+  box-shadow: inset 0 -30px 0 #ec6f3b;
+}
+
+.strikethrough {
+  position: relative;
+}
+
+.strikethrough:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 50%;
+    right: 0;
+    border-top: 10px solid #17223C;;
+    border-color: inherit;
+
+    -webkit-transform:rotate(-5deg);
+    -moz-transform:rotate(-5deg);
+    -ms-transform:rotate(-5deg);
+    -o-transform:rotate(-5deg);
+    transform:rotate(-5deg);
+}
+
+.javascript {
+    font-family: 'Ubuntu Mono', monospace;
+    color: #000;
+}
+
+blockquote {
+  quotes: "\201D""\201C""\2018""\2019";
+  font-size: 45px;
+  color: #2433DF; 
+}
+
+blockquote:before {
+  position: absolute;
+  font-style: normal;
+  color: #ff8fa6; 
+  content: open-quote;
+  font-size: 4em;
+  top: 0.3em;
+  margin-right: 0.4em;
+  margin-left: -0.4em;
+}
+
+.blockquote-footer, blockquote-footer > a {
+  box-shadow: inset 0 -10px 0 #B9EAEA;
+  float: right;
+}
+
+.definition {
+  font-size: 55px;
+  color: #2433DF; 
+}
+
+.blockquote-footer:before {
+  content: "-"
+}
+
+// pink -- #ff8fa6
+// light-blue -- #B9EAEA
+// blue -- #2433DF
